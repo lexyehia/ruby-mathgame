@@ -1,9 +1,11 @@
-class Player
-  attr_accessor :lives, :id
+module MathGame
+  class Player
+    attr_accessor :lives, :id
 
-  def initialize(id)
-    @id = "Player #{id}"
-    @lives = 3
+    def initialize(id)
+      @id = "Player #{id}"
+      @lives = 3
+    end
+
   end
-
 end
